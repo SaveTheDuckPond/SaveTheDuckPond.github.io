@@ -1,25 +1,53 @@
-<!-- css goes here, k? --> 
-		.inline{
-                	display:inline;
-		}
-		#mainpic{
-			position:relative;
-			right: 0px;
-			z-axis: 1;
-		}
-		h1{
-			position:absolute;
-			right:20px;
-			top:100px;
-			z-axis: 2;
-			text-align:center;
-		}
-		span{
-			background-color:yellow;
-		}
-		div {
-			width:100px;
-			overflow:scroll;
-			border: black 2px solid;
-			height:100px;
-		}
+body {
+  margin:0;
+  padding:0;
+  border:0;
+  background-color:#f0f0f0;
+  font-family:arial, sans-serif;
+}
+
+header {
+  background: url(../images/duckpond.jpeg) no-repeat;
+  background-size:auto 500px;
+}
+
+header h1 {
+  margin:0;
+  border:0;
+  padding:0;
+  height:500px;
+  line-height:500px;
+  text-align: center;
+  color:white;
+  font-weight:bold;
+  font-size:4em;
+  background:rgb(0, 250, 255);
+  background:rgba(0, 0, 0, 0.3);
+}
+
+.content {
+  margin:32px 16px;
+  width:80%;
+}
+
+.content h2 {
+  font-size:2em;
+}
+
+.content p {
+  font-size:1em;
+}
+
+footer {
+  padding:15px;
+}
+
+.image-list {
+  padding:10px;
+  display:inline-block;
+}
+
+.image-list a {
+  padding:5px;
+}
+ 
